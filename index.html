@@ -1,0 +1,840 @@
+
+<!DOCTYPE html>
+<html>
+<head>  
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+	<title>Abhijith C</title>
+
+	<!-- CSS  -->      
+	<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	<!-- Font Awesome -->
+	<link href="css/font-awesome.css" rel="stylesheet">
+	<!-- Skill Progress Bar -->
+	<link href="css/pro-bars.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<!-- Default Theme CSS File-->
+	<link id="switcher" href="css/themes/black-theme.css" type="text/css" rel="stylesheet" media="screen,projection"/>     
+	<link href="css/main.css" rel="stylesheet"/>
+	<!-- Main css File -->
+	<link href="style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	<!-- Font -->
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- jQuery Library -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="js/typed.js" type="text/javascript"></script>
+	<script>
+		$(function(){
+
+			$("#typed").typed({
+				stringsElement: $('#typed-strings'),
+				typeSpeed: 50,
+				startDelay: 200,
+				backSpeed: 0,
+				backDelay: 1000,
+				loop: true,
+			contentType: 'html', // or text
+			// defaults to false for infinite loop
+			loopCount: false,
+			callback: function(){ foo(); },
+			resetCallback: function() { newTyped(); }
+		});
+
+			$(".reset").click(function(){
+				$("#typed").typed('reset');
+			});
+
+		});
+		$(function(){
+
+			$("#navTyped").typed({
+				strings: [""],
+				typeSpeed: 50,
+				startDelay: 200,
+				backSpeed: 0,
+				backDelay: 1000,
+				loop: true,
+			contentType: 'html', // or text
+			// defaults to false for infinite loop
+			loopCount: false,
+			callback: function(){ foo(); },
+			resetCallback: function() { newTyped(); }
+		});
+
+			$(".reset").click(function(){
+				$("#navTyped").typed('reset');
+			});
+
+		});
+
+	function newTyped(){ /* A new typed object */ }
+
+	function foo(){ console.log("Callback"); }
+
+</script>
+
+</head>
+<body>
+	<div id="typed-strings">
+		<span>^1000 I'm Abhijith</span>
+	</div>
+
+
+	<!-- BEGAIN PRELOADER -->
+	<div id="preloader">        
+		<div class="progress">
+			<div class="indeterminate"></div>
+		</div>        
+	</div>
+	<!-- END PRELOADER -->
+	<header id="header" role="banner">
+		<div class="navbar-fixed">
+			<nav>
+				<div class="container">
+					<div class="nav-wrapper">
+						<!-- LOGO -->
+						<!-- TEXT BASED LOGO -->
+						<a href="index.html" class="brand-logo"> > <strong><span id="navTyped"></span></strong></a>
+						<!-- Image Based Logo -->                
+						<!-- <a href="index.html" class="brand-logo"><img src="img/logo.jpeg" alt="logo img"></a>  -->
+						<ul class="right hide-on-med-and-down custom-nav menu-scroll">
+							<li><a href="#about">About Me</a></li>
+							<li><a href="#resume">Resume</a></li>
+							<li><a href="#experience">Experience</a></li>
+							<li><a href="#edcuation">Education</a></li>
+							<!--<li><a href="#blog">Blog</a></li>
+							<li><a href="#footer">Contact</a></li>-->
+						</ul>
+						<!-- For Mobile View -->
+						<ul id="slide-out" class="side-nav menu-scroll">
+							<li><a href="#about">About Me</a></li>
+							<li><a href="#resume">Resume</a></li>
+							<li><a href="#experience">Experience</a></li>
+							<li><a href="#edcuation">Education</a></li>
+							<!--<li><a href="#blog">Blog</a></li>
+							<li><a href="#footer">Contact</a></li>-->
+						</ul>
+						<a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+					</div>
+				</div>
+			</nav>
+		</div>  
+	</header>
+	<div class="main-wrapper">
+		<main role="main">
+			<!-- START HOME SECTION -->
+			<section id="home">
+				<div class="overlay-section">
+					<div class="container">
+						<div class="row">
+							<div class="col s12">
+								<div class="home-inner">
+									<h1 class="home-title">HI! <font id="typed" color="white"></font></h1>
+									<p><strong>Geek | Coder | Chelsea Fan</strong></p>
+									                 
+									</a>
+									<!-- Call to About Button -->
+									<button class="btn btn-floating waves-effect waves-light btn-large white call-to-about" style="margin-top: 5dp"><i class="material-icons">keyboard_arrow_down</i></button>                  
+								</div>
+							</div>  
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- START ABOUT SECTION -->
+			<section id="about">
+				<div class="container">
+					<div class="row">
+						<div class="col s12">
+							<div class="about-inner">
+								<h3 class="title">About Me</h3>
+								<div class="row">
+									<div class="col s12 m4 l2">
+										<div class="about-inner-left">
+											<img class="profile-img" src="img/pimg.jpg" alt="Profile Image">
+										</div>
+									</div>
+									<div class="col s12 m8 l9">
+										<div class="about-inner-right">
+											<p><strong>I'm a pre-final year Computer Science student. Android developer by interest and web developer by necessity. A chelsea fanatic for nearly a decade.</br>I'm an active competitve coder and an algorithmic problem setter at a couple of companies. Major movie freak and an open source lover. </strong></p>
+											
+											<!--
+											<div class="personal-information col s12 m12 l6">
+												<h3>Personal Information</h3>
+												<ul>
+													<li><span>Name : </span>John Doe </li>
+													<li><span>Age : </span>26 Years</li>
+													<li><span>Phone : </span>+01254689</li>
+													<li><span>Email : </span>John@gmail.com</li>
+													<li><span>Address : </span>California,USA</li>
+												</ul>
+											</div>
+											<div class="resume-download col s12 m12 l6">
+												<a href="#" class="waves-effect waves-light btn-large resume-btn"><i class="mdi-content-archive left"></i> Download Resume</a>
+											</div>
+										-->
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col s3 m3 l2 offset-l2">
+						<!--Twitter-->
+						<a type="button" class="btn-floating btn-large btn-tw" href="https://twitter.com/abhijith__C"><i class="fa fa-twitter"></i></a>
+					</div>
+					<div class="col s3 m3 l2">
+						<!--Google +-->
+						<a type="button" class="btn-floating btn-large btn-gplus" href="https://plus.google.com/+AbhijithC0505"><i class="fa fa-google-plus"></i></a>
+					</div>
+					<div class="col s3 m3 l2">
+						<!--Linkedin-->
+						<a type="button" class="btn-floating btn-large btn-li" href="https://www.linkedin.com/in/abhijith0505"><i class="fa fa-linkedin"></i></a>
+					</div>
+					<div class="col s3 m3 l2">
+						<!--Github-->
+						<a type="button" class="btn-floating btn-large btn-git" href="https://github.com/abhijith0505"><i class="fa fa-github"></i></a>
+					</div>
+				</div>
+				<hr>
+			</div>
+
+		</section>
+		<!-- Start Resume -->
+		<section id="resume">
+			<!-- Start Skill -->
+			<section id="skill">
+				<div class="container">
+					<div class="skill-inner">
+						<h3 class="title">Techincal Skills</h3>
+						<h5><strong>What I'm good at</strong></h5>
+						<!-- Start skills progress bar -->
+
+						<div class="skill-progress-bar">
+							<span>C/C++</span>
+							<div class="pro-bar-container color-wisteria">
+								<div class="pro-bar bar-100 color-amethyst" data-pro-bar-percent="90"></div>
+							</div>
+							<span>Algorithms and Data Structures</span>
+							<div class="pro-bar-container color-wisteria">
+								<div class="pro-bar bar-90 color-amethyst" data-pro-bar-percent="80" data-pro-bar-delay="100"></div>
+							</div>
+							<span>Python & JAVA</span>
+							<div class="pro-bar-container color-wisteria">
+								<div class="pro-bar bar-90 color-amethyst" data-pro-bar-percent="80" data-pro-bar-delay="100"></div>
+							</div>
+							<span>Android Development</span>
+							<div class="pro-bar-container color-wisteria">
+								<div class="pro-bar bar-80 color-amethyst" data-pro-bar-percent="80" data-pro-bar-delay="200"></div>
+							</div>
+							<span>Webapps and website development</span>
+							<div class="pro-bar-container color-wisteria">
+								<div class="pro-bar bar-70 color-amethyst" data-pro-bar-percent="70" data-pro-bar-delay="300"></div>
+							</div>
+							<span>HTML, CSS & JS</span>
+							<div class="pro-bar-container color-wisteria">
+								<div class="pro-bar bar-60 color-amethyst" data-pro-bar-percent="60" data-pro-bar-delay="400"></div>
+							</div>
+							<span>DevOps</span>
+							<div class="pro-bar-container color-wisteria">
+								<div class="pro-bar bar-50 color-amethyst" data-pro-bar-percent="50" data-pro-bar-delay="500"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Start Experience -->
+			<section id="experience">
+				<div class="container">
+					<div class="experience-inner">
+						<h2 class="title">Experience</h2>
+						<div id="owl-carousel" class="experience-slider row">
+							<!-- Start Single Experience -->
+							<div class="col s12">
+								<div class="card">
+									<div class="card-image waves-effect waves-block waves-light">
+										<h2 class="experience-title">May 2016 - Present</h2>
+										<img class="activator" src="img/office1.jpg">
+									</div>
+									<div class="card-content">
+										<span class="card-title activator reveal-title">Problem Setter<i class="material-icons right">more_vert</i></span>
+										<p><a href="https://doselect.com/">DoSelect</a></p>
+									</div>
+									<div class="card-reveal">
+										<span class="card-title reveal-title">Problem Setter<i class="material-icons right">close</i></span>
+										<a href="https://doselect.com/" class="card-subtitle">DoSelect</a>
+										<p>I serve as a problem setter for various contests held on DoSelect.</p>
+									</div>
+								</div>
+							</div>
+							<!-- Start Single Experience -->
+							<div class="col s12">
+								<div class="card">
+									<div class="card-image waves-effect waves-block waves-light">
+										<h2 class="experience-title">Jan 2016 - Present</h2>
+										<img class="activator" src="img/office2.jpg">
+									</div>
+									<div class="card-content">
+										<span class="card-title activator reveal-title">Problem Setter<i class="material-icons right">more_vert</i></span>
+										<p><a href="https://www.hackerearth.com/">HackerEarth</a></p>
+									</div>
+									<div class="card-reveal">
+										<span class="card-title reveal-title">Problem Setter<i class="material-icons right">close</i></span>
+										<a href="https://www.hackerearth.com/" class="card-subtitle">HackerEarth</a>
+										<p>I serve as an algorithmic problem setter for various college contests and hiring contests held on HackerEarth.</p>
+									</div>
+								</div>
+							</div>
+
+							<!-- Start Single Experience -->
+
+							<div class="col s12">
+								<div class="card">
+									<div class="card-image waves-effect waves-block waves-light">
+										<h2 class="experience-title">July 2016 - Sept 2016</h2>
+										<img class="activator" src="img/office3.jpg">
+									</div>
+									<div class="card-content">
+										<span class="card-title activator reveal-title">Engineering Intern<i class="material-icons right">more_vert</i></span>
+										<p><a href="https://www.freecharge.in/">FreeCharge</a></p>
+									</div>
+									<div class="card-reveal">
+										<span class="card-title reveal-title">Engineering Intern<i class="material-icons right">close</i></span>
+										<a href="https://www.freecharge.in/" class="card-subtitle">FreeCharge</a>
+										<p>I was a Site Reliability Engineering intern. Worked with various server monitoring tools and automated many NOC procedures.</p>
+									</div>
+								</div>
+							</div>
+							<!-- Start Single Experience -->
+							<div class="col s12">
+								<div class="card">
+									<div class="card-image waves-effect waves-block waves-light">
+										<h2 class="experience-title">Feb 2016 - July 2016</h2>
+										<img class="activator" src="img/office4.jpg">
+									</div>
+									<div class="card-content">
+										<span class="card-title activator reveal-title">VP of Technology<i class="material-icons right">more_vert</i></span>
+										<p><a href="http://notnull.co.in/">notNULL Media LLP</a></p>
+									</div>
+									<div class="card-reveal">
+										<span class="card-title reveal-title">VP of Technology<i class="material-icons right">close</i></span>
+										<a href="http://notnull.co.in/" class="card-subtitle">notNULL Media LLP</a>
+										<p>Led the technical team under the CTO in the development of the official website. Formulated plans and strategies for various technical products within the company.</p>
+									</div>
+								</div>
+							</div>
+							<!-- Start Single Experience -->
+							<div class="col s12">
+								<div class="card">
+									<div class="card-image waves-effect waves-block waves-light">
+										<h2 class="experience-title">Jan 2016 - Mar 2016</h2>
+										<img class="activator" src="img/office5.jpg">
+									</div>
+									<div class="card-content">
+										<span class="card-title activator reveal-title">Software Dev Intern<i class="material-icons right">more_vert</i></span>
+										<p><a href="#">Grinions</a></p>
+									</div>
+									<div class="card-reveal">
+										<span class="card-title reveal-title">Software Development Intern<i class="material-icons right">close</i></span>
+										<a href="#" class="card-subtitle">Grinions</a>
+										<p>I was involved in the development of Web App using Python Flask for the backend. Also dealt with various front-end projects.</p>
+									</div>
+								</div>
+							</div>
+							<!-- Start Single Experience -->
+							<div class="col s12">
+								<div class="card">
+									<div class="card-image waves-effect waves-block waves-light">
+										<h2 class="experience-title">Sept 2015 - Dec 2015</h2>
+										<img class="activator" src="img/office6.jpg">
+									</div>
+									<div class="card-content">
+										<span class="card-title activator reveal-title">Android Developer<i class="material-icons right">more_vert</i></span>
+										<p><a href="http://www.supertextnow.com/">Supertext</a></p>
+									</div>
+									<div class="card-reveal">
+										<span class="card-title reveal-title">Android Developer (Intern)<i class="material-icons right">close</i></span>
+										<a href="http://www.supertextnow.com/" class="card-subtitle">Supertext</a>
+										<p>Involved in developing the mobile app for handling delivery operations. Along with the team, formulated different strategies to go about the development of App. </p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- owl navigation -->
+						<div class="customNavigation">
+							<a class="btn prev btn-floating waves-effect waves-light btn-large white"><i class="mdi-navigation-chevron-left brand-text "></i></a>
+							<a class="btn next btn-floating waves-effect waves-light btn-large white"><i class="mdi-navigation-chevron-right brand-text"></i></a>                    
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Start Education -->
+			<section id="edcuation">
+				<div class="container">
+					<div class="education-inner">
+						<h2 class="title">Education</h2>
+
+						<div id="owl-carousel1" class="experience-slider row">
+							<!-- Start Single Experience -->
+							<div class="col s12">
+								<div class="card">
+									<div class="card-image waves-effect waves-block waves-light">
+										<h2 class="experience-title">2014 - Present</h2>
+										<img class="activator" src="img/col.jpg">
+									</div>
+									<div class="card-content">
+										<span class="card-title activator reveal-title">Bachelor Of Engg.<i class="material-icons right">more_vert</i></span>
+										<p><a href="www.sirmvit.edu/">Sir MVIT</a></p>
+									</div>
+									<div class="card-reveal">
+										<span class="card-title reveal-title">Bachelor Of Engineering<i class="material-icons right">close</i></span>
+										<a href="www.sirmvit.edu/" class="card-subtitle">Sir M Visvesvaraya Institute Of Technology</a>
+										<p>Computer Science</p>
+									</div>
+								</div>
+							</div>
+							<!-- Start Single Experience -->
+							<div class="col s12">
+								<div class="card">
+									<div class="card-image waves-effect waves-block waves-light">
+										<h2 class="experience-title">2002 - 2014</h2>
+										<img class="activator" src="img/school.jpg">
+									</div>
+									<div class="card-content">
+										<span class="card-title activator reveal-title">School<i class="material-icons right">more_vert</i></span>
+										<p><a href="www.kv2jalahalli.net/">Kendriya Vidyalaya</a></p>
+									</div>
+									<div class="card-reveal">
+										<span class="card-title reveal-title">School<i class="material-icons right">close</i></span>
+										<a href="www.kv2jalahalli.net/" class="card-subtitle">Kendriya Vidyalaya</a>
+										<p>Class 10th and class 12th from this school.
+										</p>
+									</div>
+								</div>
+							</div>
+											<!-- owl navigation
+										<div class="customNavigation">
+											<a class="btn prev1 btn-floating waves-effect waves-light btn-large white"><i class="mdi-navigation-chevron-left brand-text"></i></a>
+											<a class="btn next1 btn-floating waves-effect waves-light btn-large white"><i class="mdi-navigation-chevron-right brand-text"></i></a>                    
+										</div> -->
+									</div>
+								</div>
+							</section>
+						</section>
+							<!-- Start Portfolio 
+							<section id="portfolio">
+								<div class="portfolio-top">
+									<div class="container">
+										<div class="portfolio-top-inner">
+											<h2 class="title">Portfolio</h2>
+										</div>
+									</div>
+								</div>
+								<div class="portfolio-bottom">
+									<div class="container">
+										<div class="portfolio-bottom-inner">
+											<div id="portfolio-list">                    
+												<div class="mix">
+													<a href="#" class="portfolio-thumbnill">
+														<img src="img/portfolio/html/html-2.jpg" alt="img">
+														<i class="material-icons view-icon">pageview</i>
+													</a>
+													<div class="portfolio-detail">
+														<a href="#" class="modal-close-btn"><span class="fa fa-times"></span></a>
+														<img src="img/portfolio/html/html-2.jpg" alt="img">
+														<h2>Portfolio Item </h2>
+														<p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+														<a href="#" class="view-project-btn">Live Demo</a>
+													</div>
+												</div>
+												<div class="mix">
+													<a href="#" class="portfolio-thumbnill">
+														<img src="img/portfolio/fashion/fashion-1.jpg" alt="img">
+														<i class="material-icons view-icon">pageview</i>           
+													</a>
+													<div class="portfolio-detail">
+														<a href="#" class="modal-close-btn"><span class="fa fa-times"></span></a>
+														<img src="img/portfolio/fashion/fashion-1.jpg" alt="img">
+														<h2>Portfolio Item </h2>
+														<p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+														<a href="#" class="view-project-btn">Live Demo</a>
+													</div>
+												</div>
+												<div class="mix">
+													<a href="#" class="portfolio-thumbnill">
+														<img src="img/portfolio/design/design-1.jpg" alt="img">
+														<i class="material-icons view-icon">pageview</i>
+													</a>
+													<div class="portfolio-detail">
+														<a href="#" class="modal-close-btn"><span class="fa fa-times"></span></a>
+														<img src="img/portfolio/design/design-1.jpg" alt="img">
+														<h2>Portfolio Item </h2>
+														<p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+														<a href="#" class="view-project-btn">Live Demo</a>
+													</div>
+												</div>
+												<div class="mix">
+													<a href="#" class="portfolio-thumbnill">
+														<img src="img/portfolio/html/html-1.jpg" alt="img">
+														<i class="material-icons view-icon">pageview</i>
+													</a>
+													<div class="portfolio-detail">
+														<a href="#" class="modal-close-btn"><span class="fa fa-times"></span></a>
+														<img src="img/portfolio/html/html-1.jpg" alt="img">
+														<h2>Portfolio Item </h2>
+														<p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+														<a href="#" class="view-project-btn">Live Demo</a>
+													</div>
+												</div>
+												<div class="mix">
+													<a href="#" class="portfolio-thumbnill">
+														<img src="img/portfolio/fashion/fashion-2.jpg" alt="img">
+														<i class="material-icons view-icon">pageview</i>
+													</a>
+													<div class="portfolio-detail">
+														<a href="#" class="modal-close-btn"><span class="fa fa-times"></span></a>
+														<img src="img/portfolio/fashion/fashion-2.jpg" alt="img">
+														<h2>Portfolio Item </h2>
+														<p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+														<a href="#" class="view-project-btn">Live Demo</a>
+													</div>
+												</div>
+												<div class="mix">
+													<a href="#" class="portfolio-thumbnill">
+														<img src="img/portfolio/design/design-2.jpg" alt="img">
+														<i class="material-icons view-icon">pageview</i>
+													</a>
+													<div class="portfolio-detail">
+														<a href="#" class="modal-close-btn"><span class="fa fa-times"></span></a>
+														<img src="img/portfolio/design/design-2.jpg" alt="img">
+														<h2>Portfolio Item </h2>
+														<p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+														<a href="#" class="view-project-btn">Live Demo</a>
+													</div>
+												</div>
+												<div class="mix">
+													<a href="#" class="portfolio-thumbnill">
+														<img src="img/portfolio/html/html-3.jpg" alt="img">
+														<i class="material-icons view-icon">pageview</i>
+													</a>
+													<div class="portfolio-detail">
+														<a href="#" class="modal-close-btn"><span class="fa fa-times"></span></a>
+														<img src="img/portfolio/html/html-3.jpg" alt="img">
+														<h2>Portfolio Item </h2>
+														<p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+														<a href="#" class="view-project-btn">Live Demo</a>
+													</div>
+												</div>
+												<div class="mix">
+													<a href="#" class="portfolio-thumbnill">
+														<img src="img/portfolio/fashion/fashion-3.jpg" alt="img">
+														<i class="material-icons view-icon">pageview</i>
+													</a>
+													<div class="portfolio-detail">
+														<a href="#" class="modal-close-btn"><span class="fa fa-times"></span></a>
+														<img src="img/portfolio/fashion/fashion-3.jpg" alt="img">
+														<h2>Portfolio Item </h2>
+														<p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+														<a href="#" class="view-project-btn">Live Demo</a>
+													</div>
+												</div>
+												<div class="mix">
+													<a href="#" class="portfolio-thumbnill">
+														<img src="img/portfolio/design/design-3.jpg" alt="img">
+														<i class="material-icons view-icon">pageview</i>
+													</a>
+													<div class="portfolio-detail">
+														<a href="#" class="modal-close-btn"><span class="fa fa-times"></span></a>
+														<img src="img/portfolio/design/design-3.jpg" alt="img">
+														<h2>Portfolio Item </h2>
+														<p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+														<a href="#" class="view-project-btn">Live Demo</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</section>-->
+							<!-- Start Facts 
+							<section id="facts">
+								<div class="facts-overlay">
+									<div class="container">
+										<div class="row">
+											<div class="col s12">
+												<div class="facts-inner">
+													<div class="row">
+														<div class="col s12 m4 l4">
+															<div class="single-facts waves-effect waves-block waves-light">
+																<i class="material-icons">work</i>
+																<span class="counter">329</span>
+																<span class="counter-text">Project Completed</span>
+															</div>
+														</div>
+														<div class="col s12 m4 l4">
+															<div class="single-facts waves-effect waves-block waves-light">
+																<i class="material-icons">supervisor_account</i>
+																<span class="counter">250</span>
+																<span class="counter-text">Happy Clients</span>
+															</div>
+														</div>
+														<div class="col s12 m4 l4">
+															<div class="single-facts waves-effect waves-block waves-light">
+																<i class="material-icons">redeem</i>
+																<span class="counter">69</span>
+																<span class="counter-text">Award Won</span>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</section>-->
+							<!-- Testimonial 
+							<section id="testimonial">
+								<div class="container">
+									<div class="row">
+										<div class="col s12">
+											<div class="testimonial-inner">
+												<h2 class="title">Testimonial</h2>
+											
+												<div class="testimonial-slider-area">
+													<div id="owl-carousel2" class="testimonial-slider row">
+														<div class="col s12">
+															<div class="single-testimonial">
+																<div class="testimonial-img">
+																	<img src="img/profile-img.jpg" alt="img">
+																</div>
+																<div class="testimonial-content">
+																	<h3>Mike Jones</h3>
+																	<span>CEO, Google Inc.</span>
+																	<p>"The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout"</p>
+																</div>
+															</div>
+														</div>
+														<div class="col s12">
+															<div class="single-testimonial">
+																<div class="testimonial-img">
+																	<img src="img/profile-img1.jpg" alt="img">
+																</div>
+																<div class="testimonial-content">
+																	<h3>Mike Jones</h3>
+																	<span>CEO, Google Inc.</span>
+																	<p>"The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout"</p>
+																</div>
+															</div>
+														</div> 
+														<div class="col s12">
+															<div class="single-testimonial">
+																<div class="testimonial-img">
+																	<img src="img/profile-img.jpg" alt="img">
+																</div>
+																<div class="testimonial-content">
+																	<h3>Mike Jones</h3>
+																	<span>CEO, Google Inc.</span>
+																	<p>"The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout"</p>
+																</div>
+															</div>
+														</div>
+														<div class="col s12">
+															<div class="single-testimonial">
+																<div class="testimonial-img">
+																	<img src="img/profile-img1.jpg" alt="img">
+																</div>
+																<div class="testimonial-content">
+																	<h3>Mike Jones</h3>
+																	<span>CEO, Google Inc.</span>
+																	<p>"The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout"</p>
+																</div>
+															</div>
+														</div>                                       
+													</div>
+													<div class="customNavigation">
+														<a class="btn prev2 btn-floating waves-effect waves-light btn-large white"><i class="mdi-navigation-chevron-left brand-text"></i></a>
+														<a class="btn next2 btn-floating waves-effect waves-light btn-large white"><i class="mdi-navigation-chevron-right brand-text"></i></a>
+													</div>                  
+												</div>
+											</div>
+										</div>
+									</div> 
+								</div>
+							</section>-->
+							<!-- Start Blog 
+							<section id="blog">
+								<div class="container">
+									<div class="row">
+										<div class="col s12">
+											<div class="blog-inner">
+												<h2 class="title">Blog</h2>
+												<p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+
+												
+												<div class="blog-area">
+													<div class="row">
+														
+														<div class="col s12 m4 l4">
+															<div class="blog-post">
+																<div class="card">
+																	<div class="card-image">
+																		<img src="img/blog1.jpg">     
+																	</div>
+																	<div class="card-content blog-post-content">
+																		<h2><a href="blog-single.html">Awesome Post Title</a></h2>
+																		<div class="meta-media">
+																			<div class="single-meta">
+																				Post By <a href="#">Admin</a>
+																			</div>
+																			<div class="single-meta">
+																				Category : <a href="#">Web/Design</a>
+																			</div>
+																		</div>
+																		<p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here.</p>
+																	</div>
+																	<div class="card-action">
+																		<a class="post-comment" href="#"><i class="material-icons">comment</i><span>15</span></a>
+																		<a class="readmore-btn" href="blog-single.html">Read More</a>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<
+														<div class="col s12 m4 l4">
+															<div class="blog-post">
+																<div class="card">
+																	<div class="card-image">
+																		<img src="img/blog2.jpg">     
+																	</div>
+																	<div class="card-content blog-post-content">
+																		<h2><a href="blog-single.html">Awesome Post Title</a></h2>
+																		<div class="meta-media">
+																			<div class="single-meta">
+																				Post By <a href="#">Admin</a>
+																			</div>
+																			<div class="single-meta">
+																				Category : <a href="#">Web/Design</a>
+																			</div>
+																		</div>
+																		<p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here.</p>
+																	</div>
+																	<div class="card-action">
+																		<a class="post-comment" href="#"><i class="material-icons">comment</i><span>10</span></a>
+																		<a class="readmore-btn" href="blog-single.html">Read More</a>
+																	</div>
+																</div>
+															</div>
+														</div>
+														
+														<div class="col s12 m4 l4">
+															<div class="blog-post">
+																<div class="card">
+																	<div class="card-image">
+																		<img src="img/blog3.jpg">     
+																	</div>
+																	<div class="card-content blog-post-content">
+																		<h2><a href="blog-single.html">Awesome Post Title</a></h2>
+																		<div class="meta-media">
+																			<div class="single-meta">
+																				Post By <a href="#">Admin</a>
+																			</div>
+																			<div class="single-meta">
+																				Category : <a href="#">Web/Design</a>
+																			</div>
+																		</div>
+																		<p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here.</p>
+																	</div>
+																	<div class="card-action">
+																		<a class="post-comment" href="#"><i class="material-icons">comment</i><span>15</span></a>
+																		<a class="readmore-btn" href="blog-single.html">Read More</a>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													
+													<a class="waves-effect waves-light btn-large allpost-btn" href="blog-archive.html">All Post</a>
+												</div>                    
+											</div>
+										</div>
+									</div> 
+								</div>
+							</section>-->
+							<!-- Start Footer -->
+							<hr>
+							<footer id="footer" role="contentinfo">
+								<!-- Start Footer Top -->
+								<div class="footer-top">
+									<div class="container">
+										<div class="row">
+											<div class="col s12">
+												<div class="footer-top-inner">
+													
+													<!--<div class="contact">
+														<div class="row">
+															
+																<div class="contact-form">
+																	<form method="post">
+																		<div class="input-field">
+																			<input type="text" class="input-box" name="contactName" id="contact-name">
+																			<label class="input-label" for="contact-name">Name</label>
+																		</div>
+																		<div class="input-field">
+																			<input type="email" class="input-box" name="contactEmail" id="email">
+																			<label class="input-label" for="email">Email</label>
+																		</div>
+																		<div class="input-field">
+																			<input type="text" class="input-box" name="contactSubject" id="subject">
+																			<label class="input-label" for="subject">Subject</label>
+																		</div>
+																		<div class="input-field textarea-input">
+																			<textarea class="materialize-textarea" name="contactMessage" id="textarea1"></textarea>
+																			<label class="input-label" for="textarea1">Message</label>
+																		</div>
+																		<button class="left waves-effect btn-flat brand-text submit-btn" type="submit" value="Submit" name="submit">send message</button>
+																	</form>
+																</div>
+														</div>
+													</div>-->
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- Start Footer Bottom -->
+								<div class="footer-bottom">
+									<div class="container">
+										<div class="row">
+											<div class="col s12">
+												<div class="footer-inner">
+													<!-- Bottom to Up Btn -->
+													<button class="btn-floating btn-large up-btn"><i class="mdi-navigation-expand-less"></i></button>
+													<p class="design-info">Hello Again :)</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</footer>
+						</main>
+					</div>
+
+					<!-- Materialize js -->
+					<script type="text/javascript" src="js/materialize.min.js"></script>
+					<!-- Skill Progress Bar -->
+					<script src="js/appear.min.js" type="text/javascript"></script>
+					<script src="js/pro-bars.min.js" type="text/javascript"></script>
+					<!-- Owl slider -->      
+					<script src="js/owl.carousel.min.js"></script>    
+					<!-- counter -->
+					<script src="js/waypoints.min.js"></script>
+					<script src="js/jquery.counterup.min.js"></script>     
+
+					<!-- Custom Js -->
+					<script src="js/custom.js"></script>      
+				</body>
+				</html>
