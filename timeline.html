@@ -1,0 +1,348 @@
+
+<!DOCTYPE html>
+<html>
+<head>  
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+	<title>Abhijith C</title>
+
+	<!-- CSS-->      
+	<link href="css/materialize.css" rel="stylesheet">
+	<!-- Font Awesome -->
+	<link href="css/font-awesome.css" rel="stylesheet">
+	<!-- Skill Progress Bar -->
+	<link href="css/pro-bars.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<!-- Default Theme CSS File-->
+	<link id="switcher" href="css/themes/black-theme.css" type="text/css" rel="stylesheet" media="screen,projection"/>     
+	<link href="css/main.css" rel="stylesheet"/>
+	<!-- Main css File -->
+	<link href="style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	<!-- Font -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- jQuery Library -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="js/typed.js" type="text/javascript"></script>
+
+	<link rel="stylesheet" href="css/timelify.css">
+
+	<script>
+		$(function(){
+
+			$("#typed").typed({
+				stringsElement: $('#typed-strings'),
+				typeSpeed: 50,
+				startDelay: 200,
+				backSpeed: 0,
+				backDelay: 1000,
+				loop: true,
+			contentType: 'html', // or text
+			// defaults to false for infinite loop
+			loopCount: false,
+			callback: function(){ foo(); },
+			resetCallback: function() { newTyped(); }
+		});
+
+			$(".reset").click(function(){
+				$("#typed").typed('reset');
+			});
+
+		});
+		$(function(){
+
+			$("#navTyped").typed({
+				strings: [""],
+				typeSpeed: 50,
+				startDelay: 200,
+				backSpeed: 0,
+				backDelay: 1000,
+				loop: true,
+			contentType: 'html', // or text
+			// defaults to false for infinite loop
+			loopCount: false,
+			callback: function(){ foo(); },
+			resetCallback: function() { newTyped(); }
+		});
+
+			$(".reset").click(function(){
+				$("#navTyped").typed('reset');
+			});
+
+		});
+
+	function newTyped(){ /* A new typed object */ }
+
+	function foo(){ console.log("Callback"); }
+
+</script>
+
+</head>
+<body>
+	<div id="typed-strings">
+		<span>^1000 I'm Abhijith</span>
+	</div>
+
+
+	<!-- BEGAIN PRELOADER -->
+	<div id="preloader">        
+		<div class="progress">
+			<div class="indeterminate"></div>
+		</div>        
+	</div>
+	<!-- END PRELOADER -->
+	<header id="header" role="banner">
+		<div class="navbar-fixed">
+			<nav>
+				<div class="container">
+					<div class="nav-wrapper">
+						<!-- LOGO -->
+						<!-- TEXT BASED LOGO -->
+						<a href="index.html" class="brand-logo"> > <strong><span id="navTyped"></span></strong></a>
+						<!-- Image Based Logo -->                
+						<!-- <a href="index.html" class="brand-logo"><img src="img/logo.jpeg" alt="logo img"></a>  -->
+						<ul class="right hide-on-med-and-down custom-nav menu-scroll">
+							<li><a href="#about">About Me</a></li>
+							<li><a href="#resume">Resume</a></li>
+							<li><a href="#experience">Experience</a></li>
+							<li><a href="#edcuation">Education</a></li>
+							<li><a href="abhijithc.blogspot.in">Blog</a></li>
+							<!--<li><a href="#blog">Blog</a></li>
+							<li><a href="#footer">Contact</a></li>-->
+						</ul>
+						<!-- For Mobile View -->
+						<ul id="slide-out" class="side-nav menu-scroll">
+							<li><a href="#about">About Me</a></li>
+							<li><a href="#resume">Resume</a></li>
+							<li><a href="#experience">Experience</a></li>
+							<li><a href="#edcuation">Education</a></li>
+							<li><a href="abhijithc.blogspot.in">Blog</a></li>
+							<!--<li><a href="#blog">Blog</a></li>
+							<li><a href="#footer">Contact</a></li>-->
+						</ul>
+						<a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+					</div>
+				</div>
+			</nav>
+		</div>  
+	</header>
+	<div class="main-wrapper">
+		<main role="main">
+			<!-- START HOME SECTION -->
+			<section id="home">
+				<div class="overlay-section">
+					<div class="container">
+						<div class="row">
+							<div class="col s12">
+								<div class="home-inner">
+									<h1 class="home-title">HI! <font id="typed" color="white"></font></h1>
+									<p><strong>Geek | Coder | Chelsea Fan</strong></p>
+
+								</a>
+								<!-- Call to About Button -->
+								<button class="btn btn-floating waves-effect waves-light btn-large white call-to-about" style="margin-top: 5dp"><i class="material-icons">keyboard_arrow_down</i></button>                  
+							</div>
+						</div>  
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- START ABOUT SECTION -->
+		<section id="about">	
+				<div class="row">
+					<div class="col s3 m3 l2 offset-l3">
+						<!--Twitter-->
+						<a type="button" class="btn-floating btn-large btn-tw" href="https://twitter.com/abhijith__C"><i class="fa fa-twitter"></i></a>
+					</div>
+					<div class="col s3 m3 l2">
+						<!--Google +-->
+						<a type="button" class="btn-floating btn-large btn-gplus" href="https://plus.google.com/+AbhijithC0505"><i class="fa fa-google-plus"></i></a>
+					</div>
+					<div class="col s3 m3 l2">
+						<!--Linkedin-->
+						<a type="button" class="btn-floating btn-large btn-li" href="https://www.linkedin.com/in/abhijith0505"><i class="fa fa-linkedin"></i></a>
+					</div>
+					<div class="col s3 m3 l2">
+						<!--Github-->
+						<a type="button" class="btn-floating btn-large btn-git" href="https://github.com/abhijith0505"><i class="fa fa-github"></i></a>
+					</div>
+				</div>
+				<hr>
+		
+
+		</section>
+	
+
+
+
+<div class="container">
+	<div class="timeline">
+		<h2>2014</h2>
+		<ul class="timeline-items">
+			<li class="is-hidden timeline-item inverted"> <!-- Normal block, positionned to the left -->
+				<h5><a href="http://www.supertextnow.com/">Sir M.Visvesvaraya Institute of Technology</a></h5>
+				<h6>Bachelor of Engineering, Computer Science Engineering</h6>
+				<hr>
+				<p>Pre-final Computer Science Engineering student at Sir M. Visvesvaraya Institute of Technology, Bangalore.</p>
+				<hr>
+				<time>August 2014 to Present</time>
+			</li>
+		</ul>
+		<h2>2015</h2>
+		<ul class="timeline-items">
+			<li class="is-hidden timeline-item"> <!-- Normal block, positionned to the left -->
+				<h5><a href="http://www.supertextnow.com/">Supertext</a></h5>
+				<h6>Android Developer (Intern)</h6>
+				<hr>
+				<p>Involved in developing the mobile app for handling delivery operations. Along with the team, formulated different strategies to go about the development of App. Used various APIs such as Google Maps for navigation and maps, smooch.io API for in-app chat integrated with slack and OneSignal API for push notifications.</p>
+				<hr>
+				<time>September 2015 to December 2015</time>
+			</li>
+		</ul>
+		<h2>2016</h2>
+		<ul class="timeline-items">
+			<li class="is-hidden timeline-item inverted"> <!-- Normal block, positionned to the right  -->
+				<h5><a href="#">Grinions</a></h5>
+				<h6>Softare Development Intern</h6>
+				<hr>
+				<p>I was involved in the development of Web App using Python Flask for the backend. Also dealt with various front-end projects using bootstrap in the alpha stage of development. Helped build the front and backend components of the platform which included responsive layout along with cloud hosted services.</p>
+				<hr>
+				<time>January 2016 - March 2016</time>
+			</li>
+			<li class="is-hidden timeline-item centered"> <!-- Centered block, positionned in the middle -->
+				<h5><a href="https://www.freecharge.in/">Freecharge</a></h5>
+				<h6>Engineering Intern</h6>
+				<p>I was a Site Reliability Engineering intern. Worked with various server monitoring tools. <br>Automated many NOC procedures involving tools like JIRA using scripts. Controlled various monitoring tools like Zabbix </p> <p>Built a system to keep track of all zabbix monitored AWS machines.
+				</p>
+				<hr>
+				<time>July 2016 to September 2016</time>
+			</li>
+
+		</ul>
+		<ul class="timeline-items">
+			<li class="is-hidden timeline-item">
+				<h5><a href="https://www.hackerearth.com/">HackerEarth</a></h5>
+				<h6>Freelance Problem Setter</h6>
+				<hr>
+				<p>I serve as an algorithmic problem setter for various hiring contests held on HackerEarth. I also serve as a moderator by providing relevant technical content and performing regular clean-up of the content.</p>
+
+				<p><span>During my time as the campus ambassador, organised several coding contests in my campus.</span></p>
+				<hr>
+				<time>January 2016 to Present</time>
+			</li>
+			<li class="is-hidden timeline-item inverted">
+				<h5><a href="https://doselect.com/">DoSelect</a></h5>
+				<h6>Freelance Problem Setter</h6>
+				<hr>
+				<p>I serve as an algorithmic problem setter for various hiring contests held on DoSelect. I also serve as a moderator by providing relevant technical content and performing regular clean-up of the content. </p><br>
+				Apart from algorithm problems, I also provide API based problems.
+				<hr>
+				<time>January 2016 to Present</time>
+			</li>
+
+
+		</ul>
+		<h2>2017</h2>
+		<ul class="timeline-items">
+		<li class="is-hidden timeline-item">
+				<h5><a href="https://doselect.com/">Udacity</a></h5>
+				<h6>Android Developer Nanodegree</h6>
+				<hr>
+				<p>Graduated as a Android Developer from Udacity's Android Developer Nanodegree program.</p>
+				<p>Developed various android applications including wearable applications and watch faces.</p>
+				The certificate can be found <a href="https://drive.google.com/file/d/0B5gv4JgWfwrSS1gtWFU0bXQwWUE/view?usp=sharing">here.</a>
+				<hr>
+				<time>January 2017</time>
+			</li>
+			<li class="is-hidden timeline-item centered"> <!-- Centered block, positionned in the middle -->
+				<h5><a href="http://cds.iisc.ac.in/">Indian Institute of Science - Dept. of Computational and Data Sciences</a></h5>
+				<h6>Project Intern</h6>
+				<p>Built a web dashboard using Python Flask (Client-Server Application) for the <a href="http://rtw.ml.cmu.edu/rtw/">NELL</a> system (a semantic machine learning system developed by a research team at Carnegie Mellon University)</p> <p>Used SQL database for storage and Bootstrap for front-end.
+				</p>
+				<hr>
+				<time>January 2017 to February 2017</time>
+			</li>
+		</ul>
+		<ul class="timeline-items">
+			<li class="is-hidden timeline-item centered"> <!-- Centered block, positionned in the middle -->
+				<h5><a href="https://summerofcode.withgoogle.com/">Google Summer of Code - Python Software Foundation</a></h5>
+				<h6>Student Developer</h6>
+				<p> GSoCer under Italian Mars Society (sub org. under Python Software Foundation)
+				</p><p>
+				When astronauts travels to Mars, or even other planets, they will be exposed to a number of hazards e.g. radiation, microbes in the spacecraft, planetary surface toxic dust. This project mainly revolves around configuring biometric signal sensors.
+
+The project has an initial phase of surveying the commercial sensors available, and selecting one, or many, after extensive research. The sensors are selected such that they read the biometrics like Heart Rate, Accelerometer data, Respiration rate, body temperature, Pulsioximetry data,Respiratory Volume, ECG, etc.
+
+The second phase involves developing the Device Server itself in Tango, for these selected sensors. This project is part of the current studies on the simulation of Astronaut’s Health Monitor Systems.</p>
+Details can be found in this <a href="http://abhijithc.blogspot.in/">blog</a>
+				<hr>
+				<time>May 2017 to Present</time>
+			</li>
+		</ul>
+	</div>
+</div>
+
+							<!-- Start Footer -->
+							<hr>
+							<footer id="footer" role="contentinfo">
+								<!-- Start Footer Top -->
+								<div class="footer-top">
+									<div class="container">
+										<div class="row">
+											<div class="col s12">
+												<div class="footer-top-inner">
+													
+											
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- Start Footer Bottom -->
+								<div class="footer-bottom">
+									<div class="container">
+										<div class="row">
+											<div class="col s12">
+												<div class="footer-inner">
+													<!-- Bottom to Up Btn -->
+													<button class="btn-floating btn-large up-btn"><i class="material-icons">keyboard_arrow_up</i></button>
+													<p class="design-info">Hello Again :)</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</footer>
+						</main>
+					</div>
+
+					<!-- Materialize js -->
+					<script type="text/javascript" src="js/materialize.min.js"></script>
+					<!-- Skill Progress Bar -->
+					<script src="js/appear.min.js" type="text/javascript"></script>
+					<script src="js/pro-bars.min.js" type="text/javascript"></script>
+					<!-- Owl slider -->      
+					<script src="js/owl.carousel.min.js"></script>    
+					<!-- counter -->
+					<script src="js/waypoints.min.js"></script>
+					<script src="js/jquery.counterup.min.js"></script>     
+
+					<!-- Custom Js -->
+					<script src="js/custom.js"></script>      
+					<script src="js/jquery.js"></script>
+					
+<script src="js/jquery.js"></script>
+<script src="js/jquery.timelify.js"></script>
+<script>
+	$('.timeline').timelify({
+			animLeft: "fadeInLeft",
+		animCenter: "fadeInUp",
+		animRight: "fadeInRight",
+		animSpeed: 600,
+		offset: 150
+	});
+</script>
+				</body>
+				</html>
