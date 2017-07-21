@@ -300,6 +300,33 @@ nav .brand-logo img {
   font-weight: 400;
 } 
 
+#publications{
+  background-color: #000;  
+  display: inline;
+  padding: 60px 0;
+  float: left;
+  width: 100%;
+}
+
+
+.publications-inner{
+  display: inline;
+  float: left;
+  width: 100%;
+}
+
+
+.publications-inner p{
+  color: #fff;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+} 
+
+.publications-inner h2{
+  color: #fff;
+}
+
 
 .title{
   font-size: 35px;
