@@ -36,7 +36,7 @@
 				startDelay: 200,
 				backSpeed: 0,
 				backDelay: 1000,
-				loop: true,
+				loop: false,
 			contentType: 'html', // or text
 			// defaults to false for infinite loop
 			loopCount: false,
@@ -57,7 +57,7 @@
 				startDelay: 200,
 				backSpeed: 0,
 				backDelay: 1000,
-				loop: true,
+				loop: false,
 			contentType: 'html', // or text
 			// defaults to false for infinite loop
 			loopCount: false,
@@ -80,7 +80,21 @@
 </head>
 <body>
 	<div id="typed-strings">
-		<span>^1000 I'm Abhijith</span>
+		<span>Hey!</span>
+		<span>You there!</span>
+		<span>Yes, you.</span>
+		<span>Come on! Who else am I talking to!</span>
+		<span>What are you looking for?</span>
+		<span>You could just ask me, you know?</span>
+		<span>Anyways, I'm Abhijith.</span>
+		<span>But I'm sure you already know that.</span>
+		<span>Found out what you are looking for yet?</span>
+		<span>I'm serious, you could just ask me.</span>
+		<span>Okay, I'm sleepy. I'll let you be then.</span>
+		<span>But there's this secret I wanted to share before I go</span>
+		<span>I have successfully traced your location using your IP address while I have kept you busy</span>
+		<span>Okay Okay! I'm kidding!</span>
+		<span>Ciao...</span>
 	</div>
 
 
@@ -98,29 +112,17 @@
 					<div class="nav-wrapper">
 						<!-- LOGO -->
 						<!-- TEXT BASED LOGO -->
-						<a href="index.html" class="brand-logo"> > <strong><span id="navTyped"></span></strong></a>
+						<a  style="text-decoration: none;" href="index.html" class="brand-logo"> > <strong><span id="navTyped"></span></strong></a>
 						<!-- Image Based Logo -->                
 						<!-- <a href="index.html" class="brand-logo"><img src="img/logo.jpeg" alt="logo img"></a>  -->
 						<ul class="right hide-on-med-and-down custom-nav menu-scroll">
-							<li><a href="#about">About Me</a></li>
-							<li><a href="#resume">Resume</a></li>
-							<li><a href="#experience">Experience</a></li>
-							<li><a href="#publications">Publications</a></li>
-							<li><a href="projects.html">Projects</a></li>
-							<li><a href="#edcuation">Education</a></li>
-							<li><a href="https://medium.com/@abhijith0505">Blog</a></li>
+							<li><strong><a style="text-decoration: none;" href="https://medium.com/@abhijith0505"><strong>Blog</strong></a></strong></li>
 							<!--<li><a href="#blog">Blog</a></li>
 							<li><a href="#footer">Contact</a></li>-->
 						</ul>
 						<!-- For Mobile View -->
 						<ul id="slide-out" class="side-nav menu-scroll">
-							li><a href="#about">About Me</a></li>
-							<li><a href="#resume">Resume</a></li>
-							<li><a href="#experience">Experience</a></li>
-							<li><a href="#publications">Publications</a></li>
-							<li><a href="projects.html">Projects</a></li>
-							<li><a href="#edcuation">Education</a></li>
-							<li><a href="https://medium.com/@abhijith0505">Blog</a></li>
+							<li><stron><a style="text-decoration: none;" href="https://medium.com/@abhijith0505"><strong>Blog</strong></a></strong></li>
 							<!--<li><a href="#blog">Blog</a></li>
 							<li><a href="#footer">Contact</a></li>-->
 						</ul>
@@ -133,24 +135,22 @@
 	<div class="main-wrapper">
 		<main role="main">
 			<!-- START HOME SECTION -->
-			<section id="home">
+			<!-- <section id="home">
 				<div class="overlay-section">
 					<div class="container">
 						<div class="row">
 							<div class="col s12">
 								<div class="home-inner">
-									<h1 class="home-title">HI! <font id="typed" color="white"></font></h1>
-									<p><strong>Geek | Coder | Chelsea Fan</strong></p>
 
 								</a>
-								<!-- Call to About Button -->
+
 								<button class="btn btn-floating waves-effect waves-light btn-large white call-to-about" style="margin-top: 5dp"><i class="material-icons">keyboard_arrow_down</i></button>                  
 							</div>
 						</div>  
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> -->
 
 		<!-- START ABOUT SECTION -->
 		<section id="about">
@@ -158,7 +158,7 @@
 				<div class="row">
 					<div class="col s12">
 						<div class="about-inner">
-							<h3 class="title">About Me</h3>
+							<h3 class="title"><font id="typed" color="black" style="text-transform: none;"></h3>
 							<div class="row">
 								<div class="col s12 m4 l2">
 									<div class="about-inner-left">
@@ -167,9 +167,22 @@
 								</div>
 								<div class="col s12 m8 l9">
 									<div class="about-inner-right">
-										<p><strong>I'm a final year Computer Science student. Android developer by interest and web developer by necessity. </br>
-											Started as an Android developer, played with web development and now exploring Machine Learning. Had a stint at DevOps as an intern at Freecharge. Expanding my knowledge base consistently, now, by being a GSoCer.
-											I'm an active competitive coder and an algorithmic problem setter at a couple of companies.<br> Been a Chelsea fanatic for nearly a decade, a major movie freak and an open source lover. </strong></p>
+										<p style="">
+											<strong>
+											I'm a B.E, final year, Computer Science student at <a href="www.sirmvit.edu/">Sir M. Visvesvaraya Institute of Technology</a>. My professional experiences started in the third semester when I was introduced to a start-up called <a href="supertextnow.com/">Supertext</a>. That marked my first internship. I worked on building an Android Application with my mates that aided Supertext's delivery team. <br>
+											The next milestone was immediately in the next semester with <a href="https://www.linkedin.com/company/7589716/">Grinions</a>, another start-up where I interned as a Python Developer. The work here primarily involved in aiding the development of a webapp built using Python Flask. <br>
+											My fifth semester marked my first big internship. This was with the DevOps team at <a href="https://www.freecharge.in/">FreeCharge Pvt. Ltd</a>. Soon after I had the oppurtunity to intern in the <a href="https://malllabiisc.github.io/">Machine and Language Learning Lab</a> in the <a href="http://cds.iisc.ac.in/">Department of Computational and Data Sciences</a> at <a href="http://www.iisc.ac.in/">Indian Institute of Science</a> where I worked on building a web dashboard for the continous learning system, NELL. <br>
+											This was also the semester where I got the chance to contribute to the <a href="https://github.com/mars-planet/mars_city/tree/master/servers/biometric_signal_sensor_interface">open source project</a> by <a href="www.marsplanet.org/">The Italian Mars Society</a> (a sub org. under Python Software Foundation) during <a href="https://summerofcode.withgoogle.com/">Google Summer of Code 2017</a>.<br>
+											Currently, in my pre-final semester, I'm working at <a href="www.bosch-india-software.com/">Bosch</a> as a Machine Learning intern in the Eyecare department where I closely work with deep learning models.
+											<br>
+											<br>
+											I've also published a technical paper in the <a href="http://www.ijcaonline.org/">International Journal of Computer Applications</a>, <a href="http://www.ijcaonline.org/archives/volume169/number5/27978-2017914749">"A Novel Double Backtracking Approach to the N-Queens Problem in Three Dimensions. International Journal of Computer Applications 169(5):1-5, July 2017"</a>.
+											<br>
+											<br>
+											I'm a crazy football fan - following the <a href="http://www.chelseafc.com/">Chelsea Football Club</a> for nearly a decade. My major field of interest in Machine Learning, Deep Learning in particular even though I have had a stint at mobile and web technologies. Another hobby that would make some sense in this context is that I'm also a competitive coder.<br>
+
+											</strong>
+							
 											
 											<!--
 											<div class="personal-information col s12 m12 l6">
@@ -182,8 +195,21 @@
 													<li><span>Address : </span>California,USA</li>
 												</ul>
 											</div>-->
-											<div class="resume-download col s12 m12 l6 offset-l4 offset-s4">
-												<a href="https://docs.google.com/document/d/1R_b4S3Xb1EMS9YT29jyGFW_HsGmOcD7kE_aN8P1nLro/edit#heading=h.90s7j3rd1do7" class="waves-effect waves-light btn-large resume-btn"><i class="mdi-content-archive left"></i>  Resume</a>
+											<hr>
+											<br><!-- 
+											<center><h4><strong>Résumé</strong></h4></center> -->
+											<br>
+											<div class="row">
+											<!--<div class="resume-download col s5 m12 l4">
+												<a href="https://docs.google.com/document/d/1R_b4S3Xb1EMS9YT29jyGFW_HsGmOcD7kE_aN8P1nLro/edit#heading=h.90s7j3rd1do7" class="waves-effect waves-light btn-large resume-btn"><i class="mdi-content-archive left"></i>  The small one</a>
+											</div> -->
+											<div class="resume-download center">
+												<a href="https://docs.google.com/document/d/1R_b4S3Xb1EMS9YT29jyGFW_HsGmOcD7kE_aN8P1nLro/" class="waves-effect waves-light btn-large resume-btn"><i class="mdi-content-archive left"></i>Résumé</a>
+											</div>
+											<!-- <div class="resume-download col s5 m12 l4 ">
+												<a href="https://docs.google.com/document/d/1R_b4S3Xb1EMS9YT29jyGFW_HsGmOcD7kE_aN8P1nLro/edit#heading=h.90s7j3rd1do7" class="waves-effect waves-light btn-large resume-btn"><i class="mdi-content-archive left"></i>  Never Mind</a>
+											</div> -->
+											</div>
 											</div>
 										</div>
 									</div>
@@ -193,21 +219,25 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="col s3 m3 l2 offset-l3">
+						<div class="col s3 m3 l1 offset-l4">
 							<!--Twitter-->
 							<a type="button" class="btn-floating btn-large btn-tw" href="https://twitter.com/abhijith__C"><i class="fa fa-twitter"></i></a>
 						</div>
-						<div class="col s3 m3 l2">
+						<div class="col s3 m3 l1">
 							<!--Google +-->
 							<a type="button" class="btn-floating btn-large btn-gplus" href="https://plus.google.com/+AbhijithC0505"><i class="fa fa-google-plus"></i></a>
 						</div>
-						<div class="col s3 m3 l2">
+						<div class="col s3 m3 l1">
 							<!--Linkedin-->
 							<a type="button" class="btn-floating btn-large btn-li" href="https://www.linkedin.com/in/abhijith0505"><i class="fa fa-linkedin"></i></a>
 						</div>
-						<div class="col s3 m3 l2">
+						<div class="col s3 m3 l1">
 							<!--Github-->
 							<a type="button" class="btn-floating btn-large btn-git" href="https://github.com/abhijith0505"><i class="fa fa-github"></i></a>
+						</div>
+						<div class="col s3 m3 l1">
+							<!--Github-->
+							<a type="button" class="btn-floating btn-large btn-git" href="mailto:abhijith4m0505@gmail.com"><i class="fa fa-envelope"></i></a>
 						</div>
 					</div>
 					<hr>
@@ -215,238 +245,10 @@
 
 			</section>
 
-			<!-- Start Publications -->
-			<section id="publications">
-				<div class="container">
-					<div class="publications-inner">
-						<h2 class="title" style="width:300px;">Publications</h2>
-						<div class="col m12">
-						<div class="card">
-						<div class="card-content">
-						<a href="http://www.ijcaonline.org/archives/volume169/number5/27978-2017914749" ">A Novel Double Backtracking Approach to the N-Queens Problem in Three Dimensions. <i>International Journal of Computer Applications </i> 169(5):1-5, July 2017</a>
-						</div>
-						</div>
-						</div>
-					</div>
-				</div>
-			</section>
 
 
 
-
-				<!-- Start Experience -->
-				<section id="experience">
-					<div class="container">
-						<div class="experience-inner">
-							<h2 class="title" style="width:300px;">Experience</h2>
-							<div id="owl-carousel" class="experience-slider row">
-							<!-- Start Single Experience -->
-								<div class="col s12">
-									<div class="card">
-										<div class="card-image waves-effect waves-block waves-light">
-											<h2 class="experience-title">August 2017 - Present</h2>
-											<img class="activator" src="img/bosch.png">
-										</div>
-										<div class="card-content">
-											<span class="card-title activator reveal-title">ML Intern<i class="material-icons right">more_vert</i></span>
-											<p><a href="http://www.bosch-india-software.com/en/homepage/rbei_homepage.html">Robert Bosch</a></p>
-										</div>
-										<div class="card-reveal">
-											<span class="card-title reveal-title">Machine Learning Intern<i class="material-icons right">close</i></span>
-											<a href="http://www.bosch-india-software.com/en/homepage/rbei_homepage.html" class="card-subtitle">Robert Bosch Engineering and Business Solutions Private Limited</a>
-										</div>
-									</div>
-								</div>
-								<!-- Start Single Experience -->
-								<div class="col s12">
-									<div class="card">
-										<div class="card-image waves-effect waves-block waves-light">
-											<h2 class="experience-title">May 2017 - Sept 2017</h2>
-											<img class="activator" src="img/gsoc.png">
-										</div>
-										<div class="card-content">
-											<span class="card-title activator reveal-title">Student Developer<i class="material-icons right">more_vert</i></span>
-											<p><a href="https://summerofcode.withgoogle.com/">Google Summer of Code</a></p>
-										</div>
-										<div class="card-reveal">
-											<span class="card-title reveal-title">Student Developer<i class="material-icons right">close</i></span>
-											<a href="https://summerofcode.withgoogle.com/" class="card-subtitle">Google Summer of Code - Python Software Foundation</a>
-											<p>GSoCer under Italian Mars Society (sub org. under Python Software Foundation)</p>
-											When astronauts travels to Mars, or even other planets, they will be exposed to a number of hazards e.g. radiation, microbes in the spacecraft, planetary surface toxic dust. This project mainly revolves around configuring biometric signal sensors.
-										</div>
-									</div>
-								</div>
-								<!-- Start Single Experience -->
-								<div class="col s12">
-									<div class="card">
-										<div class="card-image waves-effect waves-block waves-light">
-											<h2 class="experience-title">January 2017 - Feb 2017</h2>
-											<img class="activator" src="img/iisc.jpg">
-										</div>
-										<div class="card-content">
-											<span class="card-title activator reveal-title">Project Intern<i class="material-icons right">more_vert</i></span>
-											<p><a href="www.csa.iisc.ernet.in/">IISc</a></p>
-										</div>
-										<div class="card-reveal">
-											<span class="card-title reveal-title">Project Intern<i class="material-icons right">close</i></span>
-											<a href="www.csa.iisc.ernet.in/" class="card-subtitle">Indian Institute of Science, Bangalore</a>
-											<p>Project Intern at Machine and Language learning lab (MALL), IISc.</p>
-										</div>
-									</div>
-								</div>
-								<!-- Start Single Experience -->
-								<div class="col s12">
-									<div class="card">
-										<div class="card-image waves-effect waves-block waves-light">
-											<h2 class="experience-title">May 2016 - May 2017</h2>
-											<img class="activator" src="img/office1.jpg">
-										</div>
-										<div class="card-content">
-											<span class="card-title activator reveal-title">Problem Setter<i class="material-icons right">more_vert</i></span>
-											<p><a href="https://doselect.com/">DoSelect</a></p>
-										</div>
-										<div class="card-reveal">
-											<span class="card-title reveal-title">Problem Setter<i class="material-icons right">close</i></span>
-											<a href="https://doselect.com/" class="card-subtitle">DoSelect</a>
-											<p>I serve as a problem setter for various contests held on DoSelect.</p>
-										</div>
-									</div>
-								</div>
-								<!-- Start Single Experience -->
-								<div class="col s12">
-									<div class="card">
-										<div class="card-image waves-effect waves-block waves-light">
-											<h2 class="experience-title">Jan 2016 - May 2017</h2>
-											<img class="activator" src="img/office2.jpg">
-										</div>
-										<div class="card-content">
-											<span class="card-title activator reveal-title">Problem Setter<i class="material-icons right">more_vert</i></span>
-											<p><a href="https://www.hackerearth.com/">HackerEarth</a></p>
-										</div>
-										<div class="card-reveal">
-											<span class="card-title reveal-title">Problem Setter<i class="material-icons right">close</i></span>
-											<a href="https://www.hackerearth.com/" class="card-subtitle">HackerEarth</a>
-											<p>I serve as an algorithmic problem setter for various college contests and hiring contests held on HackerEarth.</p>
-										</div>
-									</div>
-								</div>
-
-								<!-- Start Single Experience -->
-
-								<div class="col s12">
-									<div class="card">
-										<div class="card-image waves-effect waves-block waves-light">
-											<h2 class="experience-title">July 2016 - Sept 2016</h2>
-											<img class="activator" src="img/office3.jpg">
-										</div>
-										<div class="card-content">
-											<span class="card-title activator reveal-title">Engineering Intern<i class="material-icons right">more_vert</i></span>
-											<p><a href="https://www.freecharge.in/">FreeCharge</a></p>
-										</div>
-										<div class="card-reveal">
-											<span class="card-title reveal-title">Engineering Intern<i class="material-icons right">close</i></span>
-											<a href="https://www.freecharge.in/" class="card-subtitle">FreeCharge</a>
-											<p>I was a Site Reliability Engineering intern. Worked with various server monitoring tools and automated many NOC procedures.</p>
-										</div>
-									</div>
-								</div>
-								<!-- Start Single Experience -->
-								<div class="col s12">
-									<div class="card">
-										<div class="card-image waves-effect waves-block waves-light">
-											<h2 class="experience-title">Jan 2016 - Mar 2016</h2>
-											<img class="activator" src="img/office5.jpg">
-										</div>
-										<div class="card-content">
-											<span class="card-title activator reveal-title">S/W Dev Intern<i class="material-icons right">more_vert</i></span>
-											<p><a href="#">Grinions</a></p>
-										</div>
-										<div class="card-reveal">
-											<span class="card-title reveal-title">Software Development Intern<i class="material-icons right">close</i></span>
-											<a href="#" class="card-subtitle">Grinions</a>
-											<p>I was involved in the development of Web App using Python Flask for the backend. Also dealt with various front-end projects.</p>
-										</div>
-									</div>
-								</div>
-								<!-- Start Single Experience -->
-								<div class="col s12">
-									<div class="card">
-										<div class="card-image waves-effect waves-block waves-light">
-											<h2 class="experience-title">Sept 2015 - Dec 2015</h2>
-											<img class="activator" src="img/office6.jpg">
-										</div>
-										<div class="card-content">
-											<span class="card-title activator reveal-title">Android Developer<i class="material-icons right">more_vert</i></span>
-											<p><a href="http://www.supertextnow.com/">Supertext</a></p>
-										</div>
-										<div class="card-reveal">
-											<span class="card-title reveal-title">Android Developer (Intern)<i class="material-icons right">close</i></span>
-											<a href="http://www.supertextnow.com/" class="card-subtitle">Supertext</a>
-											<p>Involved in developing the mobile app for handling delivery operations. Along with the team, formulated different strategies to go about the development of App. </p>
-										</div>
-									</div>
-								</div>
-							</div>
-							<!-- owl navigation -->
-							<div class="customNavigation">
-								<a class="btn prev btn-floating waves-effect waves-light btn-large white"><i class="mdi-navigation-chevron-left brand-text "></i></a>
-								<a class="btn next btn-floating waves-effect waves-light btn-large white"><i class="mdi-navigation-chevron-right brand-text "></i></a>                    
-							</div>
-							<div class="resume-download">
-							<a href="timeline.html" class="waves-effect waves-light btn-large resume-btn" style="margin-left: 20px;background-color: #fff;color:#000">View Timeline</a>
-							</div>
-						</div>
-					</div>
-				</section>
-				<!-- Start Education -->
-				<section id="edcuation">
-					<div class="container">
-						<div class="education-inner">
-							<h2 class="title">Education</h2>
-
-							<div id="owl-carousel1" class="experience-slider row">
-								<!-- Start Single Experience -->
-								<div class="col s12">
-									<div class="card">
-										<div class="card-image waves-effect waves-block waves-light">
-											<h2 class="experience-title">2014 - Present</h2>
-											<img class="activator" src="img/col.jpg">
-										</div>
-										<div class="card-content">
-											<span class="card-title activator reveal-title">Bachelor Of Engg.<i class="material-icons right">more_vert</i></span>
-											<p><a href="www.sirmvit.edu/">Sir MVIT</a></p>
-										</div>
-										<div class="card-reveal">
-											<span class="card-title reveal-title">Bachelor Of Engineering<i class="material-icons right">close</i></span>
-											<a href="www.sirmvit.edu/" class="card-subtitle">Sir M Visvesvaraya Institute Of Technology</a>
-											<p>Computer Science</p>
-										</div>
-									</div>
-								</div>
-								<!-- Start Single Experience -->
-								<div class="col s12">
-									<div class="card">
-										<div class="card-image waves-effect waves-block waves-light">
-											<h2 class="experience-title">2002 - 2014</h2>
-											<img class="activator" src="img/school.jpg">
-										</div>
-										<div class="card-content">
-											<span class="card-title activator reveal-title">School (Till 12th)<i class="material-icons right">more_vert</i></span>
-											<p><a href="www.kv2jalahalli.net/">Kendriya Vidyalaya</a></p>
-										</div>
-										<div class="card-reveal">
-											<span class="card-title reveal-title">School (Till 12th)<i class="material-icons right">close</i></span>
-											<a href="www.kv2jalahalli.net/" class="card-subtitle">Kendriya Vidyalaya</a>
-											<p>Class 10th and class 12th from this school.
-											</p>
-										</div>
-									</div>
-								</div>
-											
-									</div>
-								</div>
-							</section>
-						</section>
+				
 							
 							<!-- Start Footer -->
 							<hr>
