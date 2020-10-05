@@ -1994,7 +1994,11 @@ textarea.materialize-textarea {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
-
+.resume-download {
+  color: #727272;
+  font-size: 15px;
+  line-height: 28px;
+}
 
 /*--------------------*/
 /* RESPONSIVE STYLE */
