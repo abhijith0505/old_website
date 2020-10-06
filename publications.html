@@ -1,0 +1,277 @@
+
+<!DOCTYPE html>
+<html>
+<head>  
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+	<title>Abhijith C</title>
+
+	<!-- CSS-->      
+	<link href="css/materialize.css" rel="stylesheet">
+	<!-- Font Awesome -->
+	<link href="css/font-awesome.css" rel="stylesheet">
+	<!-- Skill Progress Bar -->
+	<link href="css/pro-bars.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<!-- Default Theme CSS File-->
+	<link id="switcher" href="css/themes/black-theme.css" type="text/css" rel="stylesheet" media="screen,projection"/>     
+	<link href="css/main.css" rel="stylesheet"/>
+	<!-- Main css File -->
+	<link href="style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	<!-- Font -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- jQuery Library -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="js/typed.js" type="text/javascript"></script>
+	
+	<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+
+	<link rel="stylesheet" href="css/timelify.css">
+
+	<style type="text/css">
+		body {
+		    display: flex;
+		    min-height: 100vh;
+		    flex-direction: column;
+		  }
+
+		  main {
+		    flex: 1 0 auto;
+  		}		
+	</style>
+
+	<script>
+		$(function(){
+
+			$("#typed").typed({
+				stringsElement: $('#typed-strings'),
+				typeSpeed: 10,
+				startDelay: 100,
+				backSpeed: 0,
+				backDelay: 1000,
+				loop: false,
+			contentType: 'html', // or text
+			// defaults to false for infinite loop
+			loopCount: false,
+			callback: function(){ foo(); },
+			resetCallback: function() { newTyped(); }
+		});
+
+			$(".reset").click(function(){
+				$("#typed").typed('reset');
+			});
+
+		});
+		$(function(){
+
+			$("#navTyped").typed({
+				strings: [""],
+				typeSpeed: 50,
+				startDelay: 200,
+				backSpeed: 0,
+				backDelay: 1000,
+				loop: false,
+			contentType: 'html', // or text
+			// defaults to false for infinite loop
+			loopCount: false,
+			callback: function(){ foo(); },
+			resetCallback: function() { newTyped(); }
+		});
+
+			$(".reset").click(function(){
+				$("#navTyped").typed('reset');
+			});
+
+		});
+
+	function newTyped(){ /* A new typed object */ }
+
+	function foo(){ console.log("Callback"); }
+
+</script>
+
+</head>
+<body>
+	<div id="typed-strings">
+		<span>My <strong>Google Scholar</strong> Profile is <a href="https://scholar.google.com/citations?user=pympN-QAAAAJ&hl=en">here</a>.</span>
+	</div>
+
+	<!-- BEGAIN PRELOADER -->
+	<div id="preloader">        
+		<div class="progress">
+			<div class="indeterminate"></div>
+		</div>        
+	</div>
+	<!-- END PRELOADER -->
+	<header id="header" role="banner">
+		<div class="navbar-fixed">
+			<nav>
+				<div class="container">
+					<div class="nav-wrapper">
+						<!-- LOGO -->
+						<!-- TEXT BASED LOGO -->
+						<a  style="text-decoration: none;" href="index.html" class="brand-logo"> > <strong><span id="navTyped"></span></strong></a>
+						<!-- Image Based Logo -->                
+						<!-- <a href="index.html" class="brand-logo"><img src="img/logo.jpeg" alt="logo img"></a>  -->
+						<ul class="right hide-on-med-and-down custom-nav menu-scroll">
+							<li><strong><a style="text-decoration: none;" href="https://medium.com/@abhijith0505"><strong>Blog</strong></a></strong></li>
+							<!--<li><a href="#blog">Blog</a></li>-->
+							<li><a style="text-decoration: none;" href="index.html#cont">Contact</a></li>
+							<li><a style="text-decoration: none;" href="publications.html">Publications</a></li>
+						</ul>
+						<!-- For Mobile View -->
+						<ul id="slide-out" class="side-nav menu-scroll">
+							<li><stron><a style="text-decoration: none;" href="https://medium.com/@abhijith0505"><strong>Blog</strong></a></strong></li>
+							<!--<li><a href="#blog">Blog</a></li>-->
+							<li><a style="text-decoration: none;" href="index.html#cont">Contact</a></li>
+							<li><a style="text-decoration: none;" href="publications.html">Publications</a></li>
+						</ul>
+						<a style="text-decoration: none;" href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+					</div>
+				</div>
+			</nav>
+		</div>  
+	</header>
+	<div class="main-wrapper">
+		<main role="main">
+			<!-- START HOME SECTION -->
+			<!-- <section id="home">
+				<div class="overlay-section">
+					<div class="container">
+						<div class="row">
+							<div class="col s12">
+								<div class="home-inner">
+
+								</a>
+
+								<button class="btn btn-floating waves-effect waves-light btn-large white call-to-about" style="margin-top: 5dp"><i class="material-icons">keyboard_arrow_down</i></button>                  
+							</div>
+						</div>  
+					</div>
+				</div>
+			</div>
+		</section> -->
+
+		<!-- START ABOUT SECTION -->
+		<section id="about">
+			<div class="container">
+				<div class="row">
+					 <h5><font id="typed" color="black" style="text-transform: none;"></h5>
+					 <br>
+					 <table class="responsive-table highlight">
+				        <thead>
+				          <tr>
+				              <th width="5%">Year</th>
+				              <th>Title</th>
+				              <th>Publication</th>
+				          </tr>
+				        </thead>
+
+				        <tbody>
+				          <tr>
+				            <td width="5%">2020</td>
+				            <td>Deduplication of Advertisement Assets Using Deep Learning Ensembles</td>
+				            <td>Accepted at 19th IEEE International Conference On Machine Learning And Applications</td>
+				          </tr>
+				          <tr>
+				            <td width="5%">2019</td>
+				            <td><a href="https://www.sciencedirect.com/science/article/abs/pii/S174680941930357X">Deep learning segmentation and quantification of Meibomian glands</a></td>
+				            <td>Prabhu, Sahana M., Abhijith Chakiat, S. Shashank, Krishna Poojita Vunnava, and Rohit Shetty. "Deep learning segmentation and quantification of Meibomian glands." Biomedical Signal Processing and Control 57 (2020): 101776.</td>
+				          </tr>
+				          <tr>
+				            <td width="5%">2017</td>
+				            <td><a href="https://www.ijcaonline.org/archives/volume169/number5/27978-2017914749">A Novel Double Backtracking Approach to the N-Queens Problem in Three Dimensions</a></td>
+				            <td>Abhijith Chakiat, Akhil Sudhakaran, Abhinav A Nair and Pallavi Venkatesh. A Novel Double Backtracking Approach to the N-Queens Problem in Three Dimensions. International Journal of Computer Applications 169(5):1-5, July 2017</td>
+				          </tr>
+				        </tbody>
+				     </table>
+				</div>
+			</section>
+
+
+
+
+				
+							
+			
+
+
+		</main>
+	</div>
+	<!-- Start Footer -->
+			<hr>
+			<footer id="footer" role="contentinfo" style="position:absolute; bottom:0px;">
+				<!-- Start Footer Top -->
+				<div class="footer-top">
+					<div class="container">
+						<div class="row">
+							<div class="col s12">
+								<div class="footer-top-inner">
+									
+							
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Start Footer Bottom -->
+				<div class="footer-bottom">
+					<div class="container">
+						<div class="row">
+							<div class="col s12">
+								<div class="footer-inner">
+									<!-- Bottom to Up Btn -->
+									<button class="btn-floating btn-large up-btn"><i class="material-icons">keyboard_arrow_up</i></button>
+									<p class="design-info">Hello Again :)</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+	<!-- <footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col s12">
+				<div class="footer-top-inner">
+				</div>
+				</div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2014 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+          </div>
+        </footer> -->
+<!-- Materialize js -->
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<!-- Skill Progress Bar -->
+<script src="js/appear.min.js" type="text/javascript"></script>
+<script src="js/pro-bars.min.js" type="text/javascript"></script>
+<!-- Owl slider -->      
+<script src="js/owl.carousel.min.js"></script>    
+<!-- counter -->
+<script src="js/waypoints.min.js"></script>
+<script src="js/jquery.counterup.min.js"></script>     
+
+<!-- Custom Js -->
+<script src="js/custom.js"></script>      
+<script src="js/jquery.js"></script>
+					
+<script src="js/jquery.js"></script>
+<script src="js/jquery.timelify.js"></script>
+<script>
+	$('.timeline').timelify({
+			animLeft: "fadeInLeft",
+		animCenter: "fadeInUp",
+		animRight: "fadeInRight",
+		animSpeed: 600,
+		offset: 150
+	});
+</script>
+				</body>
+				</html>
